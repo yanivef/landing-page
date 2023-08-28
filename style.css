@@ -52,7 +52,7 @@ a {
  display: flex;
  flex-wrap: wrap;
  margin-top: 48px;
- width: 800px;
+ /* width: 800px; */
 }
 
 .subject {
@@ -96,4 +96,37 @@ img {
     flex-wrap: wrap;
     gap: 16px;
 
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.body-header {
+    text-align: center;
+    font-weight: 900;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 16px;
+    /* flex: 1; */
+    
+}
+
+.img-container img {
+    width: 200px;
+    border-radius: 20px;
+    
+}
+
+.img-description p{
+    width: 200px;
+    text-align: center;
 }
