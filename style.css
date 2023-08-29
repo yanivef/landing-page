@@ -164,17 +164,39 @@ img {
     margin: 72px auto;
 }
 .information {
-    /* display: flex; */
+    display: flex;
+    width: 700px;
     background-color: #3882F6;
-    
+    padding: 32px;
+    border-radius: 8px;
     justify-content: center;
     align-items: center;
+    color: #E5E7EB;
+    margin: 0;
     
 }
-.info-button {
+.info-button {  
     background-color: #3882F6;
     color: #E5E7EB;
     border-radius: 8px;
     font-size: 16px;
     font-weight: 700;
+    border-color: white;
+    margin-left: auto;
+}
+
+
+.main-info {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0;  
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
 }
